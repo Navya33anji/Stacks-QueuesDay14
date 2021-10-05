@@ -2,6 +2,13 @@
 {
     internal class NodeStack
     {
-        internal NodeStack next;
+        
+        internal object next;
+        private int value;
+
+        public NodeStack(int value)
+        {
+            this.value = value;
+        }
     }
 }
